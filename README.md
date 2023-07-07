@@ -11,7 +11,9 @@ Completed for a Repl.it bounty.
 -Also, ensure that the DUCO Coin software is installed on your Raspberry Pi via running the following command into your raspberry pi terminal (automatic download):
 
 wget https://raw.githubusercontent.com/revoxhere/duino-coin/master/Tools/duco-install-rpi.sh
+
 sudo chmod a+x duco-install-rpi.sh
+
 ./duco-install-rpi.sh
 
 -Before running the program, ensure that you have connected your Raspberry Pi Pico to your computer and identified the correct serial port. Modify the 'pico_serial' variable accordingly.
