@@ -13,9 +13,9 @@ Setup Raspberry Pi Pico for Mining:
 3. The python Requests dependency will allow you to send HTTP/1.1 requests extremely easily, and in this case it is necessary to get the job details from the Duino Coin server. To install the required dependency, run the following command in your main computer terminal: "pip install requests"
 4. Use a text editor to create a new Python script and copy and paste the code in this repository "mine.py" to the new python file.
 5. Modify the following parameters in the code:
-  Set the username variable to your Duino Coin wallet interface username.
-  Set the password variable to your Duino Coin wallet interface password.
-  Update the pico_serial variable with the serial port identified in step 2.
+   Set the 'username' variable to your Duino Coin wallet interface username.
+   Set the 'password' variable to your Duino Coin wallet interface password.
+   Update the 'pico_serial' variable with the serial port identified in step 2.
 6. Save the Python script with an appropriate name (e.g., duinocoin_miner.py).
 
 Install Duino Coin on Raspberry Pi Pico:
